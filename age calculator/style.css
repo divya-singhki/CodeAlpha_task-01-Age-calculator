@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: color #e8eaec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+font-size: 20px;
+color: #000;
+margin-bottom: 450px;
+background: color #e8eaec;
+box-shadow: 4px 4px 8px 4px rgb(227, 230, 229), -4px 4px 2px  rgb(208, 208, 202);
+padding: 10px 25px;
+}
+.container{
+position: absolute;
+border: none;
+height: 350px;
+width: 450px;
+padding: 50px 30px;
+/* transform: translate(-50%,-50%); */
+/* top: 50%;
+left: 50%; */
+outline: none;
+background: color #f8f9fa;
+box-shadow: 8px 4px 8px 4px rgb(183, 185, 184), -8px 4px 2px  rgb(221, 221, 219) ;
+}
+.input-wrapper{
+    background: color #e8eaec;
+    padding: 30px 25px;
+    box-shadow: 8px 4px 8px 4px rgb(183, 192, 189), -8px 4px 2px  rgb(253, 253, 252) ;
+   border-radius: 8px;
+   margin-bottom: 50px;
+}
+input, button{
+    height: 50px;
+    background-color: #f2f4f7e3;
+    color: #080808;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 8px 4px 8px rgb(219, 230, 227), -4px 4px 8px rgb(255, 255, 213);
+}
+input{
+    width: 60%;
+    padding: 0 2px;
+    font-size: 15px;
+    cursor: text;
+}
+button{
+    width: 30%;
+    float: right;
+    font-size: 15px;
+    cursor: pointer;
+}
+.output-wrapper{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.output-wrapper div{
+    width: 100px;
+    height: 100px;
+    background-color: #fcfcfc;
+    color: #000;
+    padding: 20px 0;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    box-shadow: 8px 4px 8px 4px rgb(189 220 213), -8px 4px 8px rgb(255, 255, 218);
+}
+span{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+p{
+    font-size: 15px;
+    color: #707070;
+    font-weight: 500;
+}
